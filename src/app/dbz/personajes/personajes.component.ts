@@ -10,6 +10,7 @@ export class PersonajesComponent {
   // @Input() personajes: any[]=[]
   get personajes () {
     return this.dbzService.personajes;
+   
   }
 
   constructor(private dbzService: DbzService){
